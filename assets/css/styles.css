@@ -101,7 +101,7 @@
 /* -------------- PROYECTOS -------------- */
 
 .proyectos{
-    /*display: grid;*/
+    display: grid;
     background-color: #c5d8d1;
 }
 
