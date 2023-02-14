@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+/* --------------MENÚ-------------- */
+.menu {
+    overflow: hidden;
+    background-color: #12263A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Roboto Condensed;
+}
+
+.menu header{
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+.menu h1{
+    color: white;
+}
+
+.menu a{
+    display: block;
+    width: 100%;
+    color: white;
+    display:block;
+    padding: 5px;
+    font-family: Roboto Condensed;
+}
+
+.menu ul{
+    margin-right: 40px;
+}
+
+.menu ul li {
+    background: #06BCC1;
+    display: block;
+    float: right;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.menu ul li:hover{
+    background: #F4EDEA;
+}
+
+.menu ul li:hover>a{
+    color:black;
+}
+
+
+/* --------------INTRODUCCIÓN-------------- */
+
+.introduccion{
+    background-image:url(/Portafolio/assets/img/introduccionbackground.png);
+    background-position: 70%;
+    float: right;
+    width: 100%;
+    height: 400px;
+}
+
+.introduccion img{
+    float: left;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.textointroduccion{
+    float: right;
+    width: 500px;
+    margin-right: 60px;
+}
+
+.textointroduccion h2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Quicksand;
+    color: aliceblue;
+    
+}
+
+.textointroduccion h4{
+    text-align: center;
+    font-family: Quicksand;
+    font-variant: inherit;
+    color: aliceblue;
+}
+
+.textointroduccion p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Roboto;
+    color: aliceblue;
+}
+
+/* -------------- PROYECTOS -------------- */
+
+.proyectos{
+    /*display: grid;*/
+    background-color: #c5d8d1;
+}
+
+.proyectos h1{
+    font-family: Quicksand;
+}
+
+.proyectos p{
+    font-family: Roboto;
+}
+
+.proyectos h3{
+    font-family: Quicksand;
+}
+.proyecto{
+    margin-left: 30px;
+    float: left;
+    width: 800px;
+}
+
+.imgproyecto{
+    float: right;
+    width: 370px;
+}
+
+.proyecto2{
+    float: right;
+}
+
+.imgproyecto2{
+    float: left;
+    margin-right: 30px;
+}
